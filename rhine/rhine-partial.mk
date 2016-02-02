@@ -77,14 +77,10 @@ PRODUCT_PACKAGES += \
 	WCNSS_cfg \
 	WCNSS_qcom_cfg \
 	WCNSS_qcom_wlan_nv \
-	hci_qcomm_init \
 	keymaster_b00 \
 	keymaster_b01 \
 	keymaster_b02 \
 	keymaster_b03 \
 	keymaster_mdt \
 	libpn544_fw \
-	nfc.msm8974 \
-	sensors.msm8974 \
-	libadsprpc \
 	libbtnv

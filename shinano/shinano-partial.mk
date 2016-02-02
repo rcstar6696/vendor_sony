@@ -56,6 +56,4 @@ PRODUCT_PACKAGES += \
 	keymaster_b03 \
 	keymaster_mdt \
 	libpn547_fw \
-	sensors.msm8974 \
-	libadsprpc \
 	libbtnv
