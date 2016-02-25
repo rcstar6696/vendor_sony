@@ -17,4 +17,4 @@ PRODUCT_PACKAGES += \
 	VersionInformation \
 	WINTEK_OGS_FW \
 	libpn547_fw \
-	sensors.msm8226
+	sensors.seagull

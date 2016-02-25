@@ -40,4 +40,4 @@ PRODUCT_PACKAGES += \
 	wcnss_b09 \
 	wcnss_mdt \
 	libpn547_fw \
-	sensors.msm8226
+	sensors.tianchi

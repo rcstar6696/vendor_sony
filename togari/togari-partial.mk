@@ -21,4 +21,6 @@ PRODUCT_PACKAGES += \
 	touch_chip_id_0x75_config_id_0x0012 \
 	touch_chip_id_0x75_config_id_0x0013 \
 	touch_module_id_0x43 \
-	touch_module_id_0x44
+	touch_module_id_0x44 \
+	libmmcamera_imx132 \
+	libmmcamera_imx134

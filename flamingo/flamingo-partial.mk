@@ -60,4 +60,4 @@ PRODUCT_PACKAGES += \
 	widevine_mdt \
 	btnvtool \
 	libpn547_fw \
-	sensors.msm8226
+	sensors.flamingo

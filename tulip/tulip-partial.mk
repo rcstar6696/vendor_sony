@@ -16,4 +16,4 @@ PRODUCT_PACKAGES += \
 	Handset_cal \
 	Speaker_cal \
 	sensord \
-	sensors.msm8916
+	sensors.tulip

@@ -32,4 +32,6 @@ PRODUCT_PACKAGES += \
 	touch_module_id_0x60 \
 	touch_module_id_0x61 \
 	fw_bcmdhd \
-	fw_bcmdhd_apsta
+	fw_bcmdhd_apsta \
+	libmmcamera_imx132 \
+	libmmcamera_imx134
