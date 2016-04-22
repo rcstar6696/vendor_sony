@@ -13,5 +13,8 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	Handset_cal \
-	Speaker_cal
+	keymaster_b00 \
+	keymaster_b01 \
+	keymaster_b02 \
+	keymaster_b03 \
+	keymaster_mdt

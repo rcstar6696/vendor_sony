@@ -13,7 +13,15 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	Handset_cal \
-	Speaker_cal \
 	fw_bcmdhd \
-	fw_bcmdhd_apsta
+	fw_bcmdhd_apsta \
+	keymaster_b00 \
+	keymaster_b01 \
+	keymaster_b02 \
+	keymaster_b03 \
+	keymaster_mdt \
+	tzfingerprint_b00 \
+	tzfingerprint_b01 \
+	tzfingerprint_b02 \
+	tzfingerprint_b03 \
+	tzfingerprint_mdt

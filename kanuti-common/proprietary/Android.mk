@@ -16,56 +16,6 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(PRODUCT_PLATFORM),kanuti)
 include $(CLEAR_VARS)
-LOCAL_MODULE := Bluetooth_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Bluetooth_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := General_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/General_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Global_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Global_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Hdmi_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Hdmi_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Headset_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Headset_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := a420_pfp
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/a420_pfp.fw
@@ -543,16 +493,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware/wlan/prima
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := hci_qcomm_init
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/bin/hci_qcomm_init
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := 
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := keymaster_b00
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.b00
@@ -615,29 +555,5 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libbtnv_so
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libbtnv.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libbtnv
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libbtnv_so
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib64/libbtnv.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libbtnv
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 endif

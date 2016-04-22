@@ -13,11 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	Bluetooth_cal \
-	General_cal \
-	Global_cal \
-	Hdmi_cal \
-	Headset_cal \
 	a420_pfp \
 	a420_pm4 \
 	cmnlib_b00 \
@@ -62,12 +57,9 @@ PRODUCT_PACKAGES += \
 	WCNSS_cfg \
 	WCNSS_qcom_cfg \
 	WCNSS_qcom_wlan_nv \
-	hci_qcomm_init \
 	keymaster_b00 \
 	keymaster_b01 \
 	keymaster_b02 \
 	keymaster_b03 \
 	keymaster_mdt \
-	libpn547_fw \
-	libbtnv_so \
-	libbtnv_so
+	libpn547_fw

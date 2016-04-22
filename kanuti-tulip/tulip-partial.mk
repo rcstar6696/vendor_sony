@@ -13,8 +13,7 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	Handset_cal \
-	Speaker_cal \
+	hci_qcomm_init \
 	sensord \
 	sensors.tulip \
-	sensors.tulip
+	libbtnv
