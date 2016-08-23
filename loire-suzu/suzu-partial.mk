@@ -19,4 +19,9 @@ PRODUCT_PACKAGES += \
 	touch_module_id_0x93 \
 	touch_module_id_0x94 \
 	fw_bcmdhd \
-	fw_bcmdhd_apsta
+	fw_bcmdhd_apsta \
+	tzfingerprint_b00 \
+	tzfingerprint_b01 \
+	tzfingerprint_b02 \
+	tzfingerprint_b03 \
+	tzfingerprint_mdt

@@ -20,8 +20,7 @@ PRODUCT_PACKAGES += \
 	cmnlib_b02 \
 	cmnlib_b03 \
 	cmnlib_mdt \
-	cpp_firmware_v1_10_0 \
-	cpp_firmware_v1_8_0 \
+	cpp_firmware_v1_5_0 \
 	fidocrypto_b00 \
 	fidocrypto_b01 \
 	fidocrypto_b02 \
@@ -32,11 +31,6 @@ PRODUCT_PACKAGES += \
 	tzattest_b02 \
 	tzattest_b03 \
 	tzattest_mdt \
-	tzfingerprint_b00 \
-	tzfingerprint_b01 \
-	tzfingerprint_b02 \
-	tzfingerprint_b03 \
-	tzfingerprint_mdt \
 	tzhdcp_b00 \
 	tzhdcp_b01 \
 	tzhdcp_b02 \
