@@ -13,9 +13,13 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	hci_qcomm_init \
-	sensord \
-	sensors.tulip \
-	libbtnv \
-	sensors.tulip \
-	libbtnv
+	touch_module_id_0xa0 \
+	touch_module_id_0xa1 \
+	touch_module_id_0xa2 \
+	fw_bcmdhd \
+	fw_bcmdhd_apsta \
+	tzfingerprint_b00 \
+	tzfingerprint_b01 \
+	tzfingerprint_b02 \
+	tzfingerprint_b03 \
+	tzfingerprint_mdt
