@@ -16,4 +16,4 @@ PRODUCT_PACKAGES += \
 	hci_qcomm_init \
 	sensord \
 	sensors.tulip \
-	libbtnv
+	libbtnv \

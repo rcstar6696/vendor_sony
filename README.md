@@ -1,1 +1,1 @@
-Sony Mobile's vendor blobs for AOSP Lollipop
+Sony Mobile's vendor blobs for AOSP MarshMallow
