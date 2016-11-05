@@ -13,6 +13,5 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	sensord \
 	sensors.tulip \
 	libbtnv \
