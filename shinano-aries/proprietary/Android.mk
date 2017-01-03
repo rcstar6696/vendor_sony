@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq (aries, $(TARGET_DEVICE))
+ifeq ($(filter-out aries z3c,$(TARGET_DEVICE)),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := adsp_b00
 LOCAL_MODULE_OWNER := Sony Mobile
