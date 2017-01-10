@@ -13,8 +13,19 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
+	a530_gpmu \
 	a530_pfp \
 	a530_pm4 \
+	a530_zap_b00 \
+	a530_zap_b01 \
+	a530_zap_b02 \
+	a530_zap_elf \
+	a530_zap_mdt \
+	a530v1_pfp \
+	a530v1_pm4 \
+	a530v2_seq \
+	a530v3_gpmu \
+	a530v3_seq \
 	cmnlib_b00 \
 	cmnlib_b01 \
 	cmnlib_b02 \
@@ -73,4 +84,12 @@ PRODUCT_PACKAGES += \
 	venus_b02 \
 	venus_b03 \
 	venus_b04 \
-	venus_mdt
+	venus_mbn \
+	venus_mdt \
+	fw_bcmdhd \
+	fw_bcmdhd_apsta \
+	tzfingerprint_b00 \
+	tzfingerprint_b01 \
+	tzfingerprint_b02 \
+	tzfingerprint_b03 \
+	tzfingerprint_mdt
