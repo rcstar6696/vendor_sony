@@ -13,8 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	a330_pfp \
-	a330_pm4 \
 	adsp_b00 \
 	adsp_b01 \
 	adsp_b02 \

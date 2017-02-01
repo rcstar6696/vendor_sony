@@ -13,8 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	a420_pfp \
-	a420_pm4 \
 	cmnlib_b00 \
 	cmnlib_b01 \
 	cmnlib_b02 \

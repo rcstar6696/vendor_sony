@@ -13,15 +13,12 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	a420_pfp \
-	a420_pm4 \
 	cmnlib_b00 \
 	cmnlib_b01 \
 	cmnlib_b02 \
 	cmnlib_b03 \
 	cmnlib_mdt \
 	cpp_firmware_v1_2_0 \
-	ice40 \
 	tzhdcp_b00 \
 	tzhdcp_b01 \
 	tzhdcp_b02 \
@@ -47,6 +44,11 @@ PRODUCT_PACKAGES += \
 	tzwidevine_b02 \
 	tzwidevine_b03 \
 	tzwidevine_mdt \
+	tzwvcpybuf_b00 \
+	tzwvcpybuf_b01 \
+	tzwvcpybuf_b02 \
+	tzwvcpybuf_b03 \
+	tzwvcpybuf_mdt \
 	venus_b00 \
 	venus_b01 \
 	venus_b02 \

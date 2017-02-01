@@ -13,8 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	fw_bcmdhd \
-	fw_bcmdhd_apsta \
 	keymaster_b00 \
 	keymaster_b01 \
 	keymaster_b02 \

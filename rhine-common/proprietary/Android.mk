@@ -16,26 +16,6 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(PRODUCT_PLATFORM),rhine)
 include $(CLEAR_VARS)
-LOCAL_MODULE := a330_pfp
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/a330_pfp.fw
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .fw
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := a330_pm4
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/a330_pm4.fw
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .fw
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := adsp_b00
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/adsp.b00
