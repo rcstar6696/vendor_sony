@@ -29,6 +29,11 @@ PRODUCT_PACKAGES += \
 	tzdtcpkctl_b02 \
 	tzdtcpkctl_b03 \
 	tzdtcpkctl_mdt \
+	tzfingerprint_b00 \
+	tzfingerprint_b01 \
+	tzfingerprint_b02 \
+	tzfingerprint_b03 \
+	tzfingerprint_mdt \
 	tzhdcp_b00 \
 	tzhdcp_b01 \
 	tzhdcp_b02 \
